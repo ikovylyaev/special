@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
+    <link rel="stylesheet" href="http://localhost:4000/css/main.css">
+    <link rel="stylesheet" href="http://localhost:4000/css/cssanimation.min.css">
+    <link rel="stylesheet" href="http://localhost:4000/css/bootstrap.css">
+    <link rel="stylesheet" href="http://localhost:4000/css/bootstrap-reboot.css">
+    <link rel="stylesheet" href="http://localhost:4000/css/bootstrap-grid.css">
+
+    <title>Качество | Sidermes</title>
+  </head>
+  <body>
+    <div class="header-page">
+	<nav class="navbar navbar-expand-lg navbar-dark">
+	  <a class="navbar-brand" href="http://localhost:4000"><img src="http://localhost:4000/img/logo.png"></a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+
+	  <div class="collapse navbar-collapse" id="navbarContent">
+	    <ul class="navbar-nav mr-auto">
+	      <li class="nav-item ">
+	        <a class="nav-link" href="http://localhost:4000"><i class="fas fa-angle-right"></i><p>Главная</p></a>
+	      </li>
+	      <li class="nav-item ">
+	        <a class="nav-link" href="http://localhost:4000/catalog"><i class="fas fa-angle-right"></i><p>Каталог</p></a>
+	      </li>
+	      <li class="nav-item  active ">
+	        <a class="nav-link" href="http://localhost:4000/quality"><i class="fas fa-angle-right"></i><p>Качество</p></a>
+	      </li>
+	      <li class="nav-item ">
+	        <a class="nav-link" href="http://localhost:4000/where"><i class="fas fa-angle-right"></i><p>Где мы</p></a>
+	      </li>
+	      <li class="nav-item ">
+	        <a class="nav-link" href="http://localhost:4000/contact"><i class="fas fa-angle-right"></i><p>Контакты</p></a>
+	      </li>
+	      <li class="nav-item ">
+	        <a class="nav-link" href="http://localhost:4000/rek"><i class="fas fa-angle-right"></i><p>Реквезиты</p></a>
+	      </li>
+	    </ul>
+	  </div>
+	</nav>
+
+	<div class="header-content">
+		<h1>Качество</h1>
+	</div>
+</div>
+<div class="container-fluid page-section">
+	<div class="catalog-nav row">
+	
+</div>
+
+<style type="text/css">
+	.header-page{background: url(http://localhost:4000/img/bg-where.jpg); background-size: cover;}
+	.col-3{padding: 0px; margin: 0px;}
+	.row{padding: 0px; margin: 0px;}
+	.card-body{border-radius: 0px; border-width: 0px; padding: 20px;}
+	.card{border-radius: 0px; border-width: 0px; height: 50vh;}
+	.card-img-top{border-radius: 0px; border-width: 0px; z-index: 0}
+	.page-section{padding: 0px; margin: 0px;}
+</style>
+</div>
+    <footer class="row" data-scrolly-top="blurInBottom">
+      <div class="col" style="color: #fff;">
+        ООО "Сидермес"
+        г. Екатеринбург, ул. Совхозная, 20а оф. 14.
+        Тел:  +7 343 278 98 42 (47,48)
+        Факс:  +7 343 278-98-42 e-mail: info@sidermes.ru
+      </div>
+      <div class="col">
+        <div class="row">
+          <ul class="nav-bottom list-group col">
+            <li class="list-group-item ">
+              <a href="http://localhost:4000"><i class="fas fa-angle-right"></i><p>Главная</p></a>
+            </li>
+            <li class="list-group-item ">
+              <a href="http://localhost:4000/catalog"><i class="fas fa-angle-right"></i><p>Каталог</p></a>
+            </li>
+          </ul>
+          <ul class="nav-bottom list-group col">
+            <li class="list-group-item  active ">
+              <a href="http://localhost:4000/quality"><i class="fas fa-angle-right"></i><p>Качество</p></a>
+            </li>
+            <li class="list-group-item ">
+              <a href="http://localhost:4000/where"><i class="fas fa-angle-right"></i><p>Где мы</p></a>
+            </li>
+          </ul>
+          <ul class="nav-bottom list-group col">
+            <li class="list-group-item ">
+              <a href="http://localhost:4000/contact"><i class="fas fa-angle-right"></i><p>Контакты</p></a>
+            </li>
+            <li class="list-group-item ">
+              <a href="http://localhost:4000/rek"><i class="fas fa-angle-right"></i><p>Реквезиты</p></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <p class="copyright">SIDERMES © COPYRIGHT 2008, ВСЕ ПРАВА ЗАЩИЩЕНЫ</p>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="http://localhost:4000/js/bootstrap.js"></script>
+    <script src="http://localhost:4000/js/scrolly.js"></script>
+    <script src="http://localhost:4000/js/letteranimation.min.js"></script>
+    <script>
+       window.onload = function() {
+          scrolly();
+       }; 
+    </script>
+  </body>
+</html>
+
