@@ -1,0 +1,27 @@
+@font-face {
+    font-family: RobotoBold;
+    src: url(RobotoBold/RobotoBold.eot),
+    src: url(RobotoBold/RobotoBold.woff),
+    	 url(RobotoBold/RobotoBold.ttf);
+}
+
+@font-face {
+    font-family: RobotoLight;
+    src: url(RobotoLight/RobotoLight.eot),
+    src: url(RobotoLight/RobotoLight.woff),
+    	 url(RobotoLight/RobotoLight.ttf);
+}
+
+@font-face {
+    font-family: RobotoMedium;
+    src: url(RobotoMedium/RobotoMedium.eot),
+    src: url(RobotoMedium/RobotoMedium.woff),
+    	 url(RobotoMedium/RobotoMedium.ttf);
+}
+
+@font-face {
+    font-family: RobotoRegular;
+    src: url(RobotoRegular/RobotoRegular.eot),
+    src: url(RobotoRegular/RobotoRegular.woff),
+    	 url(RobotoRegular/RobotoRegular.ttf);
+}
