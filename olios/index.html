@@ -1,0 +1,56 @@
+<html>
+	<head>
+		<title>Заголовок</title>
+		<link rel="stylesheet" href="css/main.css">
+		<meta charset="utf-8">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	</head>
+	<body>
+		<div class="menu-btn" id="menu_toggler"><img src="img/1.png" alt="menu"></div>
+		<div class="menu">
+			<a href="" class="head-logo"><img src="img/LOGO.png" alt="logo"></a>
+			<ul id="mainnav">
+				<li class="head-menu-link">
+					<a href=""><img src="img/Home.png" alt="home"></a>
+				</li>
+				<li>
+					<a href="" class="head-menu-link"><img src="img/Pin.png" alt="pin"></a>
+				</li>
+				<li>
+					<p class="head-menu-link" id="search_toggler"><img src="img/Search.png" alt="search"></p>
+				</li>
+			</ul>
+
+			<a href="" class="head-menu-link-botom"><img src="img/in.png" alt="in"></a>
+		</div>
+		<header class="home">
+			<h1>OLIOS</h1>
+			<p>newest furniture shop template</p>
+			<a href="" class="btn">viev more</a>
+		</header>
+		<div class="sidemenu">
+			<ul>
+				<li><a href=""><p>Living room</p><img src="img/ICON.png" alt="icon"></a></li>
+				<li><a href=""><p>Office</p><img src="img/ICON-1.png" alt="icon"></a></li>
+				<li><a href=""><p>For kids</p><img src="img/ICON-2.png" alt="icon"></a></li>
+				<li><a href=""><p>Kitchen</p><img src="img/ICON-3.png" alt="icon"></a></li>
+				<li><a href=""><p>Accesories</p><img src="img/ICON-4.png" alt="icon"></a></li>
+			</ul>
+		</div>
+		<div class="search">
+			<input type="text">
+			<p>Type product that are looking for</p>
+		</div>
+
+		<script>
+			jQuery(document).ready(function() {
+				$("#menu_toggler").click(function() {
+					$(".sidemenu").toggleClass('open');
+				});
+				$("#search_toggler").click(function() {
+					$(".search").toggleClass('open');
+				});
+			});
+		</script>
+	</body>
+</html>

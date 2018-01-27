@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Anonymous+Pro:400,700|Lato:100,300,400,700,900&subset=cyrillic');
+@import url('https://fonts.googleapis.com/css?family=Pacifico|Pangolin');
+/*
+font-family: 'Lato', sans-serif;
+font-family: 'Anonymous Pro', monospace;
+font-family: 'Pacifico', cursive;
+font-family: 'Pangolin', cursive;
+*/
+
+body{
+	font-family: 'Pangolin', cursive;
+	padding: 0px; 
+	width: 100%; 
+	margin: 0px;
+	overflow-x: hidden;
+}
+.italic{font-family: 'Pacifico', cursive; font-size: 20pt;}
+.container{max-width: 1024px; margin: 0px auto;}
+
+header{background: url(../img/robert-lukeman-150146.jpg); -webkit-background-size: cover;-o-background-size: cover; background-size: cover; height: 101vh; width: 100%; padding: 0px; margin: 0px; margin-top: -20px;}
+nav{width: 100%; padding: 0px auto; margin: 0px;}
+nav ul{list-style: none; width: 100%; text-align: center;}
+nav ul li{display: inline-block; padding: 50px; vertical-align: middle;}
+nav ul li a{color: #000; text-decoration: none; vertical-align: middle;}
+.header-logo{height: 50px;}
+
+.main-heeader-text{margin-top: 15vh; text-align: center; width: 100%;}
+.main-heeader-text h3{font-family: 'Lato', sans-serif;font-size: 10vh; opacity: 0.5; color: #fff;text-transform: uppercase;}
+.main-heeader-text h1{font-family: 'Lato', sans-serif;font-size: 25vh; margin-top: -20vh; opacity: 1; background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 20%, rgba(255,255,255,0)100%);   -webkit-background-clip: text;  -webkit-text-fill-color: transparent;text-transform: uppercase;}
+.btn{background: none; padding: 2vh 3vw; border: 2px solid #fff; text-transform: uppercase; color: #fff; text-decoration: none; margin-top: -5vh;}
+
+.info{background: #FFF; box-shadow: 0px 0px 10px 10px rgba(0,0,0,0.5); position: relative; top: -50px; padding: 10px; width: 100%; border-radius: 5px;}
+.info-block-small{width: 25%; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;  display: inline-block; padding: 0 20px; vertical-align: middle; text-align: center; border-right: 1px solid #000;}
+.info-block-small:nth-child(3){border-right: 0px solid #000 !important;}
+.info-block-search{display: inline-block; padding: 0 20px;top: 5px; position: relative;}
+.info-block-search .btn-line{background: #35ADA4; color: #fff; text-decoration: none; display: inline-block; padding: 10px 40px; font-size: 200%;}
+
+.img-responsive{width: 100%;}
+.col{width: 49.5%; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; display: inline-block; vertical-align: top;}
+#mountains .col h2{font-size: 40pt; margin-top: -40px;}
+#mountains .col ul{list-style: none;}
+#mountains .col ul li img{width: 10%; display: inline-block; vertical-align: middle;}
+#mountains .col ul li p{width: 85%; display: inline-block; margin-left: 5%; vertical-align: middle;}
+
+.gallery{width: 100%; margin: 30px 0;}
+.gallery div{width: calc((100% / 4) + 1px); height: 300px; display: inline-block; margin: 0px; margin-right: -4px;}
+
+.gallery-2{width: 100%;}
+.gallery-2 img{width: calc((100% / 3) + 1px); margin: 0px -2px; padding: 0px;}
+
+.want-more{ margin-top: -50px; padding: 75px 0px; background: #FFF;}
+.want-more .top{font-family: 'Pacifico', cursive; width: 200px; margin: 0 auto;font-size: 150%;}
+.want-more h3{font-family: 'Lato', sans-serif; font-size: 500%;margin: auto auto; margin-top: -40px; margin-bottom: -20px; width: 200px;}
+.want-more .bottom{font-family: 'Pacifico', cursive; text-align: right; width: 200px;margin: 0 auto; font-size: 125%;}
+
+.contact{background: url(../img/pexels-photo-128458.jpeg); padding: 150px 0 150px 0; background-position: center center; -webkit-background-size: cover; -o-background-size: cover; background-size: cover;}
+.contact .form{width: 400px; margin: 0 auto;}
+.contact .form input{width: 400px; border-radius: 5px 5px 0 0; padding: 30px; color: #000; border-width: 0px;}
+.contact .form input:nth-child(2){border-radius: 0 0 5px 5px !important;}
+.contact .form .send{border-radius: 5px; padding: 10px; margin-top: 20px; float: right; width: 100px; background: #0B3D59; color: #fff;}
+
+input#date{border-width: 0px; font-weigth: 500; font-size: 150%; text-align: center;font-family: 'Lato', sans-serif; border-bottom: 1px solid rgba(200,200,200,0.1);}
+input#days{width: 30px; border-width: 0px; font-weigth: 500; font-size: 150%; text-align: center;font-family: 'Lato', sans-serif; border-bottom: 1px solid rgba(200,200,200,0.1);}
+input#depart{border-width: 0px; font-weigth: 500; font-size: 150%; text-align: center; width: 100%;font-family: 'Lato', sans-serif; border-bottom: 1px solid rgba(200,200,200,0.1);}

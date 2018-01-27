@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css?family=Anonymous+Pro:400,700|Lato:100,300,400,700,900&subset=cyrillic');
+/*
+font-family: 'Lato', sans-serif;
+font-family: 'Anonymous Pro', monospace;
+*/
+
+body{
+	font-family: 'Anonymous Pro', monospace; 
+	padding: 0 0 0 0px; 
+	width: calc(100vw - 80px); 
+	margin: 0 0 0 80px;
+}
+
+.menu{
+	background: #FFF; 
+	position: fixed; 
+	top: 0px; 
+	left: 0px; 
+	height: 100vh; 
+	width: 80px; 
+	padding: 20px;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+#mainnav{list-style: none; margin-top: 5vh; width: 40px; padding: 0px;}
+#mainnav li{margin-top: 20px;}
+#mainnav li a{text-align: center; width: 100%;}
+.head-menu-link-botom{display: inline-block; position: absolute; top: 90vh; left: 25px; }
+.head-logo{
+	margin: 25px 0px; 
+	text-align: center; 
+	width: 40px;
+}
+.head-logo img{
+	margin: 0 5px; 
+	width: 30px;
+}
+
+.head-menu-link:first-child{padding-top: 5vh !important;}
+.head-menu-link{
+	margin: 10px;
+	margin-top: 20px;
+}
+
+
+.home{
+	background: url(../img/bg.png); 
+	-webkit-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
+	background-position: center;
+	height: 100vh;
+	width: 100%;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+	padding: 10vh 0;
+}
+.home h1{
+	text-align: center;
+	padding-top: 0;
+	font-size: 125pt;
+	font-family: 'Lato', sans-serif;
+	font-weight: 100;
+	padding-bottom: 0px;
+	margin-bottom: -20px;
+}
+
+.home p{
+	text-align: center;
+	padding-top:-5vh;
+	font-size: 16pt;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	text-transform: uppercase;
+	margin-bottom: 50px;
+}
+
+.btn{
+	text-align: center;
+	background: #0023FF;
+	color: #fff; 
+	-webkit-border-radius: 50px;
+	        border-radius: 50px;
+	padding: 10px 30px;
+	font-size: 10pt;
+	width: 100px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 500;
+	text-transform: uppercase;
+	text-decoration: none;
+	margin: 20px calc(50% - 50px);
+}
+
+.menu-btn img{
+	width: 20px;
+	margin-top: 10px;
+}
+
+.menu-btn{
+	text-align: center;
+	background: #fff;
+	color: #fff; 
+	-webkit-border-radius: 50px;
+	        border-radius: 50px;
+	padding: 10px 10px;
+	width: 40px;
+	height: 40px;
+	text-decoration: none;
+	top: 20px;
+	right: 20px; 
+	position: fixed;
+	z-index: 200;
+	-webkit-box-shadow: 0px 0 5px 3px rgba(0,0,0,0.1);
+	        box-shadow: 0px 0 5px 3px rgba(0,0,0,0.1);
+}
+
+
+.sidemenu{position: fixed; background: #fff; right: -300px; width: 300px; top: 0px; height: 100vh; transition: 0.3s;}
+.sidemenu ul{margin-top: calc(50vh - 177.5px); padding: 0px 50px; list-style: none;  text-align: right; width: 200px;}
+.sidemenu ul li{text-align: right; width: 200px; margin-top: 10px;}
+.sidemenu ul li a{text-decoration: none; color: #ddd; text-align: right; width: 100%; -webkit-transition: 0.3s;  -moz-transition: 0.3s; -ms-transition: 0.3s; -o-transition: 0.3s;  transition: 0.3s;}
+.sidemenu ul li a p{display: inline-block; vertical-align: middle; margin-right: 20px; font-size: 20px; text-transform: uppercase;}
+.sidemenu ul li a img{display: inline-block; vertical-align: middle; height: 30px;}
+.sidemenu ul li:hover a{text-decoration: none; color: #0023FF; -webkit-transition: 0.3s;  -moz-transition: 0.3s; -ms-transition: 0.3s; -o-transition: 0.3s;  transition: 0.3s;}
+.sidemenu.open {right: 0px; transition: 0.3s;}
+
+.search{position: fixed; padding: 75px; top: 200px; left: 80px; width: calc(100vw - 80px); height: 100%; background: rgba(255,255,255,0.5); opacity: 0; z-index: -50; -webkit-transition: 0.3s;  -moz-transition: 0.3s; -ms-transition: 0.3s; -o-transition: 0.3s;  transition: 0.3s;}
+.search.open{top: 0px;opacity: 1; z-index: 200; -webkit-transition: 0.3s;  -moz-transition: 0.3s; -ms-transition: 0.3s; -o-transition: 0.3s;  transition: 0.3s;}
+.search input{width:  calc(100vw - 230px); padding: 20px; font-size: 50pt; background: none; border-width: 0px; border-bottom: 1px solid #000;}
+.search p{margin-top: -30px; color: #ddd; position: relative;}
