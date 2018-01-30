@@ -82,7 +82,7 @@ footer a{color: #999;}
 footer a:hover{color: #FFE40C;}
 footer ul li{list-style: none;}
 
-@media(max-width: 168px){
+@media(max-width: 768px){
 	.header-images .product-header{
 		display: none;
 	}
