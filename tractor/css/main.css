@@ -81,3 +81,9 @@ footer .col-md-3 p{color: #FFE40C;}
 footer a{color: #999;}
 footer a:hover{color: #FFE40C;}
 footer ul li{list-style: none;}
+
+@media(max-width: 168px){
+	.header-images .product-header{
+		display: none;
+	}
+}
