@@ -1,0 +1,26 @@
+/* stylelint-disable selector-list-comma-newline-after */
+
+body{
+  background: #eee;
+}
+header{background: #fff;}
+.navbar-small{height: 40px;}
+.header-content div{text-align: center; padding: 20px;}
+.owl-carousel .item h4{color: #fff;}
+.owl-carousel .item p{color: #fff;}
+.owl-carousel .item{
+	height: 50vh;
+	width: 100vw;
+	margin: 0px;
+	background-position: center;
+	-webkit-background-size: cover;
+	     -o-background-size: cover;
+	        background-size: cover;
+}
+.owl-carousel .item .content{position: relative; top: 20vh; height: 10vh; padding: 0px 50px;}
+
+.img-responsive{width: 100%;}
+
+.block-blog{margin-bottom: 20px;background: #fff;}
+.blog-content{padding: 20px}
+footer{background: #fff; text-align: center; margin-top: 50px; margin-bottom: 0px; padding: 20px;}

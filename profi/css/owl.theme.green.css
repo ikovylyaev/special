@@ -1,0 +1,84 @@
+/**
+ * Owl Carousel v2.2.1
+ * Copyright 2013-2017 David Deutsch
+ * Licensed under  ()
+ */
+/*
+ * 	Green theme - Owl Carousel CSS File
+ */
+.owl-theme .owl-nav {
+  margin-top: 10px;
+  text-align: center;
+  -webkit-tap-highlight-color: transparent; 
+  position: absolute;
+  bottom:0px; 
+  right: 0px;
+}
+.owl-theme .owl-nav [class*='owl-'] {
+  color: #222;
+  font-size: 14px;
+  margin: 0px;
+  padding: 4px 7px;
+  background: #fff;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 0px; 
+  -webkit-transition: 0.3s;
+     -moz-transition: 0.3s;
+      -ms-transition: 0.3s;
+       -o-transition: 0.3s;
+          transition: 0.3s;
+}
+.owl-theme .owl-nav [class*='owl-']:hover {
+  background: #2780E3;
+  color: #FFF;
+  text-decoration: none; 
+  -webkit-transition: 0.3s;
+     -moz-transition: 0.3s;
+      -ms-transition: 0.3s;
+       -o-transition: 0.3s;
+          transition: 0.3s;
+}
+.owl-theme .owl-nav .disabled {
+  opacity: 0.5;
+  cursor: default; 
+}
+
+.owl-theme .owl-nav.disabled + .owl-dots {
+  margin-top: 10px; 
+}
+
+.owl-theme .owl-dots {
+  text-align: center;
+  -webkit-tap-highlight-color: transparent; 
+  position: absolute;
+  bottom:-4.5px; 
+  left: 0px;
+}
+.owl-theme .owl-dots .owl-dot {
+  display: inline-block;
+  zoom: 1;
+  *display: inline; 
+}
+.owl-theme .owl-dots .owl-dot span {
+  width: 21px;
+  height: 21px;
+  margin: 0px 0px;
+  background: #fff;
+  display: block;
+  -webkit-backface-visibility: visible;
+  -webkit-transition: 0.3s;
+     -moz-transition: 0.3s;
+      -ms-transition: 0.3s;
+       -o-transition: 0.3s;
+          transition: 0.3s;
+  border-radius: 00px; 
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+  background: #2780E3; 
+  -webkit-transition: 0.3s;
+     -moz-transition: 0.3s;
+      -ms-transition: 0.3s;
+       -o-transition: 0.3s;
+          transition: 0.3s;
+}
